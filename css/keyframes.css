@@ -1,14 +1,14 @@
 @keyframes car {
 	0% {
-		top: 450px;
+		top: 440px;
 		left: 1500px;
 	}
 	60% {
-		top: 400px;
+		top: 360px;
 		left: 500px;
 	}
 	100% {
-		top: 420px;
+		top: 400px;
 		left: -200px;
 	}
 }
@@ -40,7 +40,7 @@
 	99%{
 		top: 100px;
 		left: 1100px;
-		transform: rotate(-60deg);
+		transform: rotate(-70deg);
 		filter: saturate(101%);
 		-webkit-filter: saturate(101%);
 		-moz-filter: saturate(101%);
@@ -65,7 +65,7 @@
 		-moz-filter: saturate(101%);
 	}
 	99% {
-		top: 250px;
+		top: 190px;
 		left: 1250px;
 		transform: rotate(45deg);
 		filter: saturate(101%);
@@ -73,12 +73,50 @@
 		-moz-filter: saturate(101%);
 	}
 	100% {
-		top: 250px;
-		left: 1250px;
+		top: 190px;
+		left: 1220px;
 		transform: rotate(45deg)
 		filter: saturate(101%) opacity(0%);
 		-webkit-filter: saturate(101%) opacity(0%);
 		-moz-filter: saturate(101%) opacity(0%);
+	}
+
+}
+@keyframes moon {
+	0% {
+		top: 80px;
+		left: 600px;
+		filter: saturate(101%) opacity(0%);
+		-webkit-filter: saturate(101%) opacity(0%);
+		-moz-filter: saturate(101%) opacity(0%);
+
+	}
+	100% {
+		top: 80px;
+		left: 600px;
+		transform: rotate(45deg);
+		filter: saturate(101%);
+		-webkit-filter: saturate(101%);
+		-moz-filter: saturate(101%);
+
+	}
+}
+@keyframes ufo {
+	0% {
+		top: 30px;
+		left: -30px;
+		transform: rotate(0deg);
+	}
+	50% {
+		top: 100px;
+		left: 520px;
+		transform: rotate(-45deg);
+
+	}
+	100% {
+		top: 100px;
+		left: 520px;
+		transform: rotate(-45deg);
 	}
 
 }

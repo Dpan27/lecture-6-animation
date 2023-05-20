@@ -13,16 +13,21 @@
 	position: absolute;
 	top: 200px;
 	left: 500px;
-	animation: car 15s infinite linear;
+	animation: car 25s infinite linear;
+}
+.car-h1 {
+	margin-left: 75px;
+	color: white;
+	font-size: 20px;
 }
 .rocet {
-	width: 70px;
+	width: 200px;
 }
 .rocet-div {
 	position: absolute;
 	top: 200px;
 	left: 200px;
-	animation: rocet 20s infinite linear;
+	animation: rocet 19s infinite linear;
 }
 .metero {
 	width: 100px;
@@ -31,22 +36,26 @@
 	position: absolute;
 	top: 5000px;
 	left: 4000px;
-	animation: metero 3s infinite linear;
-	animation-delay: 17s;
+	animation: metero 19s infinite linear;
+
 }
 .moon {
-	width: 250px;
+	width: 350px;
 }
 .moon-div {
 	position: absolute;
-	top: 30px;
+	top: 3000px;
 	left: 30px;
+	animation: moon 25s infinite ease;
+	z-index: 1;
+/*	animation-delay: 8s;*/
 }	
 .ufo {
-	width: 200px;
+	width: 300px;
 }
 .ufo-div {
 	position: absolute;
 	top: 400px;
 	left: 300px;
+	animation: ufo 25s infinite linear;
 }
